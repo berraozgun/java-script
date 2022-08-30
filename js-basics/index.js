@@ -22,4 +22,5 @@ let firstName2 = undefined;
 let selectedColor = null;
 
 console.log(name, age, isApproved, firstName2, selectedColor);
+//test
 
