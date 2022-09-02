@@ -24,3 +24,16 @@ let selectedColor = null;
 console.log(name, age, isApproved, firstName2, selectedColor);
 //test
 
+let person = {
+    name: 'Berra',
+    age: 14
+};
+
+//Dot notation
+person.name = 'John';
+
+//Bracket Notation
+let selection = 'name';
+person[selection] = 'Mary';
+
+console.log(person.name);
