@@ -42,9 +42,33 @@ let selectedColors = ['red', 'blue'];
 selectedColors[2] = 1;
 console.log(selectedColors.length);
 
-function greet (name) {
-    console.log('Hello ' + name);
+function greet (greetName, greeetLastname) {
+    console.log('Hello World ' + greetName + greeetLastname);
 
 }
 
-greet('John');
+greet('John', ' Smith');
+greet('Mary',' Baker');
+
+
+//FUNCTIONS
+
+//Performing a Task
+function best (yourName){
+    console.log(yourName + 'is the best programmer in the world')
+
+}
+best ('Berra ');
+
+//Calculating a Value
+function square(number) {
+    return number * number;
+}
+console.log(square(2));
+
+// Area Assignment
+function area(base, height) {
+    return base*height/2
+}
+
+console.log(area(2,8))
