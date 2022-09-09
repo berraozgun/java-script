@@ -72,3 +72,24 @@ function area(base, height) {
 }
 
 console.log(area(2,8))
+
+for (let i = 0; i < 5; i++) {
+    console.log('i am the best programmer');
+}
+
+for (let i = 0; i < 100; i++) {
+    console.log(i);
+}
+
+function power (base,power) {
+    console.log(base**power)
+}
+power(3,3);
+
+function exponent(base, exponent) {
+    result=1;
+    for(let i=0; i<exponent ; i++)
+    result= result* base;
+}
+return result
+console.log(power(2,4))
