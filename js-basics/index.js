@@ -90,6 +90,17 @@ function exponent(base, exponent) {
     result=1;
     for(let i=0; i<exponent ; i++)
     result= result* base;
-}
 return result
+}
 console.log(power(2,4))
+
+// Write a function that takes 2 numbers. And start with the first numbers and add all the numbers upto the second number. Returns the total. Ex: total (4,8) should return 4+5+6+7+8=30
+
+function add(num1, num2) {
+    let result = 0;
+    for(let i = num1; i <= num2; i++) {
+    result += i;
+    }
+    return(result);
+};
+console.log(add(4, 8));
