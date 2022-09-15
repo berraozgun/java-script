@@ -105,6 +105,7 @@
 // };
 // console.log(add(4, 8));
 
+/*
 let counter=1;
 while (counter<101){
     console.log(counter)
@@ -116,12 +117,26 @@ for(let i=1; i<101 ; i++){
 }
 
 let password="magnolia123"
-
-
+let userInput=null
 while (userinput =! password){
     userInputprompt("Please enter the righjt password")
 }
+alert ("Access Granted!!")
 
 
 let myName=prompt("Please say your name")
 alert("Welcome "+myName+ " to your website")
+
+*/
+
+let hour = 10;
+ 
+if (hour >= 6 && hour < 12) {
+    console.log('Good Morning')
+}
+else if (hour >= 12 && hour < 17) {
+    console.log('Good Afternoon')
+}
+else {
+    console.log('Good Evening')
+}
