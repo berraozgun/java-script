@@ -105,7 +105,7 @@
 // };
 // console.log(add(4, 8));
 
-/*
+
 let counter=1;
 while (counter<101){
     console.log(counter)
@@ -117,7 +117,7 @@ for(let i=1; i<101 ; i++){
 }
 
 let password="magnolia123"
-let userInput=null
+let userInput="sdsf"
 while (userinput =! password){
     userInputprompt("Please enter the righjt password")
 }
@@ -127,7 +127,7 @@ alert ("Access Granted!!")
 let myName=prompt("Please say your name")
 alert("Welcome "+myName+ " to your website")
 
-*/
+
 
 let hour = 10;
  
@@ -139,4 +139,34 @@ else if (hour >= 12 && hour < 17) {
 }
 else {
     console.log('Good Evening')
+}
+
+userInput=pareInt(prompt("Enter a number"))
+alert (userInput + 3)
+alert ("Access Granted!!")
+
+let yourAge = prompt("Your Age?");
+
+if(yourAge > 0 && yourAge <3) {
+    alert("You are a baby");
+}
+
+else if (yourAge >=5 && yourAge <13){
+    alert("You are a toddler");
+}
+
+else if (yourAge >=12 && yourAge <20) {
+    alert("You are a teenager");
+}
+
+else if (yourAge >=20 && yourAge <32){
+    alert("You are a young adult");
+}
+
+else if (yourAge >= 32 && yourAge <65){
+    alert("You are a adult");
+}
+
+else {
+    alert("You are a senior");
 }
