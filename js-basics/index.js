@@ -105,7 +105,7 @@
 // };
 // console.log(add(4, 8));
 
-
+/*
 let counter=1;
 while (counter<101){
     console.log(counter)
